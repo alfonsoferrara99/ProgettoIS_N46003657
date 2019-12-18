@@ -85,10 +85,17 @@ public class Main {
 				
 		Studente s2 = new Studente(nome, cognome, matricola);
 		
+		nome = "Charles";
+		cognome = "Dickens";
+		matricola = "N43006105";
+				
+		Studente s3 = new Studente(nome, cognome, matricola);
+		
 		
 		//li faccio prenotare all'appello desiderato
 		gestore.prenotazione(s1, a1);
 		gestore.prenotazione(s2, a1);
+		gestore.prenotazione(s3, a1);
 		
 		//CONSULTAZIONE STUDENTI PRENOTATI A UN APPELLO
 		System.out.println("\n****CONSULTAZIONE STUDENTI PRENOTATI A UN APPELLO****\n");
