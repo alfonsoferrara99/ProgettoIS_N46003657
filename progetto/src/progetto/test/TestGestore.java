@@ -146,7 +146,7 @@ public class TestGestore {
 		
 		Appello a1 = new Appello(corso, id, prove);
 		
-		//non creo l'appello con gestore.creaAppello(a1);
+		//non creo effettivamente l'appello con gestore.creaAppello(a1);
 				
 		a1 = null;		
 		ArrayList<Prenotazione> ris = gestore.visualizzaPrenotati(a1);
