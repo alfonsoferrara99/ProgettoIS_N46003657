@@ -102,7 +102,7 @@ public class Main {
 		
 		gestore.visualizzaPrenotati(a1);
 		
-		System.out.println("\n****TUTTE LE FUNZIONALITA' RICHIESTE SONO TESTATE");
+		System.out.println("\n****TUTTE LE FUNZIONALITA' RICHIESTE SONO TESTATE****");
 		
 		
 		
