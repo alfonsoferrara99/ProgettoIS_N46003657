@@ -27,7 +27,7 @@ public class TestGestore {
 	}
 
 	@Test
-	public void test01() throws SQLException {
+	public void test01() {
 		//1 APPELLO, NESSUNO STUD PRENOTATO AD ESSO. O/A: 0 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -52,7 +52,7 @@ public class TestGestore {
 	}
 	
 	@Test
-	public void test02() throws SQLException {
+	public void test02() {
 		//1 APPELLO, 1 STUD PRENOTATO AD ESSO. O/A: 1 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -86,7 +86,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test03() throws SQLException {
+	public void test03() {
 		//1 APPELLO, PIU' STUD PRENOTATI AD ESSO (3). O/A: 3 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -132,7 +132,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test04() throws SQLException {
+	public void test04() {
 		//0 APPELLI, 0 STUDENTI PRENOTATI.  O/A: 0 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -161,7 +161,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test05() throws SQLException {
+	public void test05() {
 		//0 APPELLI, 1 STUD SI PRENOTA A UN APPELLO INESISTENTE. O/A: 0 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -196,7 +196,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test06() throws SQLException {
+	public void test06() {
 		//2 APPELLI PER 1 STESSO CORSO: 1 STUD PRENOTATO AL PRIMO, 0 AL SECONDO. O/A: 1 RIS, 0 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -236,7 +236,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test07() throws SQLException {
+	public void test07() {
 		//2 APPELLI PER 2 CORSI DIVERSI: 1 STUD PRENOTATO AL PRIMO, 1 AL SECONDO. O/A: 1 RIS, 1 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -290,7 +290,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test08() throws SQLException {
+	public void test08() {
 		//2 APPELLI PER 1 STESSO CORSO, 1 STUD PRENOTATO AD ENTRAMBI. O/A: 1 RIS, 1 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -332,7 +332,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test09() throws SQLException {
+	public void test09() {
 		//3 APPELLI, DI CORSI DIVERSI, NESSUN PRENOTATO AD ESSI. O/A: 0 RIS, 0 RIS, 0 RIS
 		String nome_corso = "INGEGNERIA DEL SOFTWARE";
 		String nome_docente = "Roberto Natella";
@@ -382,7 +382,7 @@ public class TestGestore {
 	
 	
 	@Test
-	public void test10() throws SQLException {
+	public void test10() {
 		//1 STUDENTE SI PRENOTA A UN APPELLO DI UN CORSO INESISTENTE. O/A: 0 RIS 
 		
 		ArrayList<Prova> prove = new ArrayList<Prova>();
